@@ -1,0 +1,1 @@
+..\bin\windows\kafka-topics.bat --create --topic tutorialspedia --bootstrap-server localhost:9092
