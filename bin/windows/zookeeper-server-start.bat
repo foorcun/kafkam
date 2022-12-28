@@ -14,6 +14,7 @@ rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 rem See the License for the specific language governing permissions and
 rem limitations under the License.
 
+
 IF [%1] EQU [] (
 	echo USAGE: %0 zookeeper.properties
 	EXIT /B 1
@@ -26,5 +27,8 @@ IF ["%KAFKA_LOG4J_OPTS%"] EQU [""] (
 IF ["%KAFKA_HEAP_OPTS%"] EQU [""] (
     set KAFKA_HEAP_OPTS=-Xmx512M -Xms512M
 )
+
 "%~dp0kafka-run-class.bat" org.apache.zookeeper.server.quorum.QuorumPeerMain %*
 EndLocal
+
+

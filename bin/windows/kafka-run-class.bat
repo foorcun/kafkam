@@ -16,6 +16,9 @@ rem limitations under the License.
 
 setlocal enabledelayedexpansion
 
+
+
+rem # ikinci command line input empty ise
 IF [%1] EQU [] (
 	echo USAGE: %0 classname [opts]
 	EXIT /B 1
@@ -181,6 +184,8 @@ rem echo.
 rem echo %COMMAND%
 rem echo.
 %COMMAND%
+
+
 
 goto :eof
 :concat

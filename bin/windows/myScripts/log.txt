@@ -1,0 +1,10 @@
+myScriptDriver dan - 
+ 4:04:28.48 
+birinciArg ikinciArg 
+Wed 12/28/2022  4:04:28.49 
+This is a log message 
+bu birinci argument: buBirinciArgument 
+bu ikinci argument: birinciArg 
+bu ucuncu argument: ikinciArg 
+bu dorduncu argument:  
+The sum is 11. 
